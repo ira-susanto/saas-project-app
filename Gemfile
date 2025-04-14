@@ -48,3 +48,10 @@ end
 group :production do
   gem 'rails_12factor'  
 end
+
+gem "devise", "= 3.5.2"
+
+gem 'milia', "= 1.2.1"
+
+gem 'recaptcha', require: 'recaptcha/rails'
+gem 'activerecord-session_store', git: 'https://github.com/rails/activerecord-session_store', tag: 'v0.1.2'
