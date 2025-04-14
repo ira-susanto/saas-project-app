@@ -55,3 +55,6 @@ gem 'milia', "= 1.2.1"
 
 gem 'recaptcha', require: 'recaptcha/rails'
 gem 'activerecord-session_store', git: 'https://github.com/rails/activerecord-session_store', tag: 'v0.1.2'
+gem "twitter-bootstrap-rails", "~> 3.2"
+
+gem "devise-bootstrap-views", "~> 1.1"
