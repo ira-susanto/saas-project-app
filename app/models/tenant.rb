@@ -5,6 +5,7 @@ class Tenant < ActiveRecord::Base
   acts_as_universal_and_determines_tenant
   
   has_many :members, dependent: :destroy
+  has_many :projects, dependent: :destroy
 
   def self.create_new_tenant(tenant_params, user_params, coupon_params)
 
