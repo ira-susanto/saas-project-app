@@ -106,10 +106,15 @@
   color: #5cb85c;  
 }
 
-.no-left-padding {
+.no-side-padding {
   padding-left: 0;
-}
-
-.no-right-padding {
   padding-right: 0;
+}
+  
+.no-left-padding {  
+  padding-left: 0 !important;
+}
+  
+.no-right-padding {  
+  padding-right: 0 !important;
 }
