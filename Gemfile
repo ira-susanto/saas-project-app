@@ -58,3 +58,5 @@ gem 'activerecord-session_store', git: 'https://github.com/rails/activerecord-se
 gem "twitter-bootstrap-rails", "~> 3.2"
 
 gem "devise-bootstrap-views", "~> 1.1"
+
+gem "bootstrap-datepicker-rails", "~> 1.10"
