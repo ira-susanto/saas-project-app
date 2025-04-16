@@ -1,1 +1,0 @@
-require_dependency Rails.root.join('app/controllers/milia/sessions_controller.rb')
