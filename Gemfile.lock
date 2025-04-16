@@ -1818,6 +1818,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    stripe (15.0.0)
     strscan (3.1.3)
     thor (1.2.2)
     thread_safe (0.3.6)
@@ -1864,6 +1865,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
+  stripe (~> 15.0)
   turbolinks
   twitter-bootstrap-rails (~> 3.2)
   uglifier (>= 1.3.0)
