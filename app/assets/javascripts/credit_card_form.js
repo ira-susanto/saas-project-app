@@ -8,12 +8,13 @@ function GetURLParameter(sParam) {
     var sParameterName = sURLVariables[i].split('=');
     if (sParameterName[0] == sParam)
     {
+      console.log(sParameterName[1])
       return sParameterName[1];
     }
   }
 };
 
-$(document).ready(function() {
+$(document).on('ready turbolinks:load', function() {
 
   var show_error, stripeResponseHandler, submitHandler;
   
